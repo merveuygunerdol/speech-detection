@@ -20,11 +20,9 @@
   words.appendChild(p);
 
   recognition.addEventListener('result', e => {
-      console.log(e.result);
-      })
-
-
-
+      console.log(e.results);
+      });
+recognition.start();
 </script>
 
 
