@@ -1,0 +1,22 @@
+{
+  "name": "speech-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merveer/speech-detection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merveer/speech-detection/issues"
+  },
+  "homepage": "https://github.com/merveer/speech-detection#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
